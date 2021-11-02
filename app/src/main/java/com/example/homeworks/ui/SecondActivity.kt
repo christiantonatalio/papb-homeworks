@@ -31,8 +31,6 @@ class SecondActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        binding.textView.visibility = View.VISIBLE
-        binding.moveToHomeFragment.visibility = View.VISIBLE
         Toast.makeText(this, "Second Activity is Resumed", Toast.LENGTH_SHORT).show()
     }
 
